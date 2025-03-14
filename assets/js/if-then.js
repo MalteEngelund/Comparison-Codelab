@@ -22,9 +22,9 @@ const E = 40;
 if(A===B){
     console.log("expression true a=b");
 }
-else if(A>B){
-console.log("expression true a>b");
-}
+// else if(A>B){
+// console.log("expression true a>b");
+// }
 else{
     console.log("expressions false");
 }
@@ -42,14 +42,14 @@ else{
 
 //opgave 3: Skriv en If then statement der vurderer om A er mindre end eller lig med B
 
-if(A<B){
+if(A<=B){
     console.log('statement true');
     
 }
-else if(A===B){
-    console.log('statement true');
+// else if(A===B){
+//     console.log('statement true');
     
-}
+// }
 else{
     console.log("expressions false");
 }
@@ -58,11 +58,11 @@ else{
 
 //opgave 4: Skriv en If then statement der bliver FALSE når du sammenligner B og C.
 
-if(B===C){
+if(B==C){
     console.log('statement false');
     
 }
-else if(C===B){
+else if(C==B){
     console.log('statement false');
     
 }
@@ -70,23 +70,20 @@ else if(C===B){
 
 //opgave 5: Skriv en If then statement der bliver TRUE når du sammenligner B og C.
 
-if(B===C){
+if(B==C){
     console.log('statement true');
     
 }
-else if(C===B){
-    console.log('statement true');
-    
-}
+
 
 
 //opgave 6: Skriv en If then statement der sammenligner B = C og E = A hvis B=C skal den blive TRUE. 
 
-if(B===C, E===A){
+if(B==C, E==A){
     console.log('statement true');
     
 }
-else if(B!==C, E!==A){
+else if(B!=C, E!=A){
     console.log('statement false');
     
 }
