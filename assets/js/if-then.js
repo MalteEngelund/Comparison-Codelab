@@ -45,14 +45,8 @@ else{
 if(A<=B){
     console.log('statement true');
     
-}
-// else if(A===B){
-//     console.log('statement true');
-    
-// }
-else{
-    console.log("expressions false");
-}
+} else console.log('statement false')
+
 
 
 
@@ -62,10 +56,7 @@ if(B==C){
     console.log('statement false');
     
 }
-else if(C==B){
-    console.log('statement false');
-    
-}
+
 
 
 //opgave 5: Skriv en If then statement der bliver TRUE når du sammenligner B og C.
