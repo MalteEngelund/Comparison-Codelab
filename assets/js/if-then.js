@@ -52,7 +52,7 @@ if(A<=B){
 
 //opgave 4: Skriv en If then statement der bliver FALSE når du sammenligner B og C.
 
-if(B==C){
+if(B===C){
     console.log('statement false');
     
 }
@@ -70,11 +70,7 @@ if(B==C){
 
 //opgave 6: Skriv en If then statement der sammenligner B = C og E = A hvis B=C skal den blive TRUE. 
 
-if(B==C, E==A){
+if(B==C || E==A){
     console.log('statement true');
-    
-}
-else if(B!=C, E!=A){
-    console.log('statement false');
     
 }
